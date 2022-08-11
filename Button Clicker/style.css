@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav{
+    background: rgb(145, 184, 184);
+    min-height: 7vh;
+    width: 80%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input{
+    height: 1.3rem;
+    width: 15rem ;
+    background-color: rgb(117, 193, 198);
+    border: 2px solid white;
+}
+
+.button1{
+    border: none;
+    height: 2rem ;
+    width: 4rem;
+    background: none;
+    background-color: rgb(117, 193, 198);
+    box-shadow: 3px 3px rgb(230, 225, 225) ;
+}
+
+
+.col{
+    display: flex;
+    margin-top: 4rem;
+    min-height: 60vh; 
+   
+}
+
+.col1{
+    flex: 2;
+    
+}
+
+.col3{
+    flex: 1;
+    
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid black;
+    width: 700px ;
+    height: 200px;
+    margin: 0 auto;
+}
+.head2 {
+    flex: 1;
+   text-align: center;
+   font-size: 1.2rem;
+}
+ 
+.para{
+    flex: 2;
+    margin-left: 2rem;
+}
+
+.button2{
+    border: none;
+    height: 2rem ;
+    width: 5rem;
+    background: none;
+    background-color: rgb(117, 193, 198);
+    box-shadow: 3px 3px rgb(230, 225, 225) ;
+    margin-top: 2rem;
+}
+
+.para p{
+    font-size: 20px;
+}
+
+.col2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid black;
+    width: 700px ;
+    height: 200px;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 4.5rem;
+}
+
+.body{
+    flex: 1;
+   text-align: center;
+   font-size: 1.2rem;
+}
+
+.col4{
+    border: 3px solid black;
+    width: 350px;
+    height: 180px;
+    
+}
+
+
+
+.button3{
+    border: none;
+    height: 2rem ;
+    width: 7rem;
+    background: none;
+    background-color: rgb(117, 193, 198);
+    box-shadow: 3px 3px rgb(230, 225, 225);
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
